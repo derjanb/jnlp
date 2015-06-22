@@ -2,7 +2,7 @@ module Jnlp #:nodoc:
   module VERSION
     MAJOR = 0
     MINOR = 7
-    TINY  = 4
+    TINY  = 5
 
     STRING = [MAJOR, MINOR, TINY].join('.')
   
