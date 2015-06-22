@@ -166,3 +166,9 @@ Add tests for:
 * MavenJnlp features.
 * downloading and caching jars
 * re-generating original and local jnlps
+
+=== Changes
+
+* June 22, 2015 (NP) – Version 0.8.0
+  Nokogiri dependency has been updated to ~> 1.6.4.
+  As of Nokogiri 1.6.4 libxml2 and libxslt are bundled with nokogiri, for simpler installs.

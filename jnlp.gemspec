@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
 
   s.files =  Dir.glob("{lib,spec}/**/*.{rb}")
 
-  s.add_runtime_dependency('nokogiri', ">= 1.4.4", "<= 1.5")
+  s.add_runtime_dependency('nokogiri', "~> 1.6.4")
 
   s.add_development_dependency('rake')
   s.add_development_dependency("rspec", '~> 2.6')
